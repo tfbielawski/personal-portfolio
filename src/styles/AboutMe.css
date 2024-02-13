@@ -1,0 +1,24 @@
+.bio{
+    text-align: justify;
+    padding: 5%;
+    line-height: 200%;
+    margin: 25px 50px 0px 100px;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;;
+}
+.ega{
+    height: 25%;
+    width: 10%;
+}
