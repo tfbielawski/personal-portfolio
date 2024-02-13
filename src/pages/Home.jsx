@@ -13,7 +13,7 @@ function Home() {
           <img className="image" src={PROFILE}/>
             <h2>Tom Bielawski</h2>
             <div className="prompt">
-                <p>Software Developer, veteran, former special agent</p>
+                <p>Software Developer, veteran, former special agent. </p>
                 <Link to="https://www.linkedin.com/in/tombielawski/"><LinkedInIcon /></Link>
                 <Link to="mailto:tfbielwski@pm.me" ><EmailIcon /></Link>
                 <Link to="https://github.com/tfbielawski" ><GithubIcon /></Link>
