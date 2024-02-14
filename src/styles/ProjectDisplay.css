@@ -26,3 +26,8 @@
   font-size: 60px;
   color: #3e497a;
 }
+
+.button{
+  background-color: rgba(77, 136, 245, 0.432);
+  height: 50%;
+}

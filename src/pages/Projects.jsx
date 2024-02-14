@@ -10,7 +10,7 @@ function Projects() {
         <div className="projectList">
            {ProjectList.map((project, idx) => {
                  return (
-                    <a href={project.deploy}>
+                    <a>
                         <ProjectItem 
                         id={idx} 
                         name={project.name} 

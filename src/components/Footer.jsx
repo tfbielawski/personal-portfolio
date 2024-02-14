@@ -1,8 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
+import { SocialIcon } from 'react-social-icons'
 import "../styles/Footer.css"
 
 function Footer() {
@@ -10,10 +7,9 @@ function Footer() {
   return (
     <div className="footer">
         <div className="socialMedia">
-            {/* use Link? */}
-            <Link to="https://www.linkedin.com/in/tombielawski/"><LinkedInIcon /></Link>
-            <Link to="mailto:tfbielwski@pm.me" > <EmailIcon /></Link>
-            <Link to="https://github.com/tfbielawski" ><GithubIcon /></Link>
+            <SocialIcon url="https://linkedin.com/in/tfbielawski" style={{ height: 100, width: 100 }}  />
+            <SocialIcon url="mailto:tfbielwski@pm.me" style={{ height: 100, width: 100 }}  />
+            <SocialIcon url="https://github.com/tfbielawski" style={{ height: 100, width: 100 }}  />
         </div>
         {/* at sign?*/}
         <p> &copy;2024 tombielawski.com </p>        

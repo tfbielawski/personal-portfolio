@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-import ReorderIcon from "@material-ui/icons/Reorder"
+import Hamburger from 'hamburger-react'
+// import { SocialIcon } from 'react-social-icons'
 
 function Navbar() {
     const [expandNav, setExpandNav] = useState(false);
@@ -19,7 +20,7 @@ function Navbar() {
         <div className="navbar" id={expandNav ? "open" : "closed"}>
             <div className="toggleButton">
                 {/* Hamburger menu to appear on small screens */}
-                <button onClick={() => {setExpandNav((previous) => !previous)}}><ReorderIcon /></button>
+                <button onClick={() => {setExpandNav((previous) => !previous)}}><Hamburger/></button>
             </div>
             <div className="links">
                 <Link to="/"> Home </Link>

@@ -1,8 +1,12 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import WorkIcon from "@material-ui/icons/Work";
-import SchoolIcon from "@material-ui/icons/School";
+import { FaSchool } from "react-icons/fa";
+import { GiSergeant } from "react-icons/gi";
+import { GiPoliceOfficerHead } from "react-icons/gi";
+import { IoCodeSlashSharp } from "react-icons/io5";
+import { TbBrandCSharp } from "react-icons/tb";
+import { GrReactjs } from "react-icons/gr";
 
 function Experience() {
   return (
@@ -12,7 +16,7 @@ function Experience() {
                 className="vertical-timeline-element--education"
                 date="1992 - 2003"
                 iconStyle={{ background: "#3e497a", color: "#fff" }}
-                icon={<WorkIcon />}
+                icon={<GiSergeant />}
             >
                 <h3 className="vertical-timeline-element-title">
                     US Marines
@@ -26,7 +30,7 @@ function Experience() {
                 className="vertical-timeline-element--education"
                 date="1997 - 2016"
                 iconStyle={{ background: "#3e497a", color: "#fff" }}
-                icon={<WorkIcon />}
+                icon={<GiPoliceOfficerHead />}
             >
                 <h3 className="vertical-timeline-element-title">
                     Law Enforcement Career
@@ -40,7 +44,7 @@ function Experience() {
                 className="vertical-timeline-element--work"
                 date="05/2019 - 05/2021"
                 iconStyle={{ background: "#e9d35b", color: "#fff" }}
-                icon={<SchoolIcon />}
+                icon={<FaSchool />}
             >
                 <h3 className="vertical-timeline-element-title">
                     Florida State College Jacksonville
@@ -53,7 +57,7 @@ function Experience() {
                 className="vertical-timeline-element--work"
                 date="05/2021 - 11/2022"
                 iconStyle={{ background: "#e9d35b", color: "#fff" }}
-                icon={<SchoolIcon />}
+                icon={<IoCodeSlashSharp />}
             >
                 <h4 className="vertical-timeline-element-title">
                     Bloom Institute of Techonology (Formerly Lambda School)
@@ -69,7 +73,7 @@ function Experience() {
                 className="vertical-timeline-element--work"
                 date="11/2021 - 10/2022"
                 iconStyle={{ background: "#3e497a", color: "#fff" }}
-                icon={<WorkIcon />}
+                icon={<TbBrandCSharp />}
             >
                 <h3 className="vertical-timeline-element-title">
                     Junior Software Engineer
@@ -87,7 +91,7 @@ function Experience() {
                 className="vertical-timeline-element--work"
                 date="10/2022 - 01/2024"
                 iconStyle={{ background: "#3e497a", color: "#fff" }}
-                icon={<WorkIcon />}
+                icon={<GrReactjs />}
             >
                 <h3 className="vertical-timeline-element-title">
                     Junior Software Engineer
