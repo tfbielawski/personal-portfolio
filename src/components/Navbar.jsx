@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-import Hamburger from 'hamburger-react'
-// import { SocialIcon } from 'react-social-icons'
+import Hamburger from 'hamburger-react';
 
 function Navbar() {
     const [expandNav, setExpandNav] = useState(false);
@@ -13,7 +12,7 @@ function Navbar() {
     //use effect to run under specified condition:
     useEffect(() => {
         setExpandNav(false);
-        //location is used to specify that this runs when location changes value
+        //location dep to specify that this runs when location changes value
     },[location]);
 
     return (

@@ -1,9 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-// Make each item click, or, when it loads have a clickable URL
-
-
 //Pass in image, name, id props to show in the cards
 function ProjectItem({image, name, id, description}) {
     const navigate = useNavigate();

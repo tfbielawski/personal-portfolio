@@ -40,7 +40,7 @@ export const ProjectList = [
     image: NASA,
     skills: "",
     repo: "https://github.com/tfbielawski/nasa-apod-vercel",
-    deploy: "deploy",
+    deploy: "deploy", //Check app status!
     description: "A really cool picture rotated daily by NASA with description using their API."
   },
   {
@@ -92,6 +92,14 @@ export const ProjectList = [
     description: "A React app that gets info from the Star Wars API about various characters and places."
   },
   // {
+  //   name: "React Essentials Info App",
+  //   image: SW1,
+  //   skills: "",
+  //   repo: "repo",
+  //   deploy: "",
+  //   description: "..."
+  // },
+  // {
   //   name: "JS Monster Killer",
   //   image: SW1,
   //   skills: "",
@@ -108,7 +116,7 @@ export const ProjectList = [
   //   description: "..."
   // },
   // {
-  //   name: "React Essentials Info App",
+  //   name: "JS RPS APP",
   //   image: SW1,
   //   skills: "",
   //   repo: "repo",
