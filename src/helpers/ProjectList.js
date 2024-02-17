@@ -9,23 +9,30 @@ import TTT2 from "../assets/rtt4.jpeg";
 import WX1 from "../assets/wx1.png";
 import SW1 from "../assets/sw1.jpeg";
 
+const CHANGEPOINT_URL = "https://play.google.com/store/search?q=changepoint&c=apps"
+
 // Style the images to fit the boxes, or replace chopped images with smaller
 export const ProjectList = [
   {
     name: "PocketPlatform Mobile App",
     image: PP,
     skills: "",
-    repo: "rhttps://github.com/tfbielawski/",
+    repo: "https://github.com/tfbielawski/",
     deploy: "https://www.acstechnologies.com/ministryplatform/tools/pocketplatform",
-    description: "Customized mobile app for churches using both Android and iOS using React Native."
+    description: `PocketPlatform is a customized mobile app for churches using both Android and iOS using React Native.
+    Some PocketPlatform apps I created on Google Play/iOS App Stores: ChangePoint Alaska Church, Beulah Baptist Church, St. Thomas More Glendale Parish,
+    Impact Church, and more. Clicking "launch" will open the PocketPlaform main info website. `,
+    url: "test"
   },
   {
-    name: "Step Up For Students",
+    name: "Step Up For Students (SUFS)",
     image: SUFS,
     skills: "",
     repo: "https://github.com/tfbielawski/",
     deploy: "https://www.stepupforstudents.org",
-    description: "Multi-state, education platform for students using C#/.NET framework."
+    description: `SUFS is a multi-state education platform for students that connects students and parents with educators, schools, 
+    and funding opportunities. It is a web app using C#/.NET framework with Blazor and Cosmos db.
+    Clicking "launch" will open the SUFS main info website.`
   },
   {
     name: "My Github Repositories",
@@ -33,23 +40,24 @@ export const ProjectList = [
     skills: "",
     repo: "https://github.com/tfbielawski/",
     deploy: "https://github.com/tfbielawski/",
-    description: "View my GitHub repositories."
+    description: `Click "Launch" to View my GitHub repositories.`
   },
-  {
-    name: "NASA Photo of the Day API React App",
-    image: NASA,
-    skills: "",
-    repo: "https://github.com/tfbielawski/nasa-apod-vercel",
-    deploy: "deploy", //Check app status!
-    description: "A really cool picture rotated daily by NASA with description using their API."
-  },
+  //This app doesn't work.
+  // {
+  //   name: "NASA Photo of the Day API React App",
+  //   image: NASA,
+  //   skills: "",
+  //   repo: "https://github.com/tfbielawski/nasa-apod-vercel",
+  //   deploy: "deploy",
+  //   description: "A really cool picture rotated daily by NASA with description using their API."
+  // },
   {
     name: "React Dungeons & Dragons Random Monster Generator",
     image: DD1,
     skills: "",
     repo: "https://github.com/tfbielawski/vercel-async-redux",
     deploy: "https://vercel-async-redux.vercel.app",
-    description: "An React/Redux app to explore D&D monsters using the D&D API!"
+    description: "A React/Redux app to explore monsters from the D&D universe using the D&D API!"
   },
   {
     name: "React Dungeons & Dragons Campaign Helper App",

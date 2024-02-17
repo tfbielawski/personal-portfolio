@@ -17,7 +17,6 @@ function Home() {
             </div>
         </div>
         <div className="skills">
-            {/* Maybe add a Skills page to unclutter  home */}
             <h3></h3>
         <h3> Noteable Skills:</h3>
         <ol className="list">
