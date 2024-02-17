@@ -17,18 +17,15 @@ function ProjectDisplay() {
                     style={{width: 280, backgroundColor: "steelblue" }}
                 >LAUNCH APP OR VIEW
                 </button>
-            
             <p>
-                <b>Skills:</b> {project.skills}                
+                <b></b> {project.skills}                
             </p>
             <p>
                 {project.description}
             </p>
-            
             <div>
                 <SocialIcon network="github" url={project.repo} style={{ height: 100, width: 100 }}  />
             </div>
-            
         </div>
     )
 }

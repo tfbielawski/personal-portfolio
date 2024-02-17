@@ -6,7 +6,7 @@ import "../styles/Projects.css";
 function Projects() {
   return (
     <div className="projects">
-        <h1> My Projects</h1>
+        <h1> Some of My Projects</h1>
         <div className="projectList">
            {ProjectList.map((project, idx) => {
                  return (
@@ -17,7 +17,7 @@ function Projects() {
                         image={project.image} 
                     />
                     </a>
-                );
+                 );
            })}
         </div>
     </div>
